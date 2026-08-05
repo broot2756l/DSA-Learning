@@ -1,3 +1,8 @@
+/* Complexity
+  * Time complexity: O(n)
+  * Space complexity: O(1)
+*/
+
 public class TwoSum {
     public static int[] twoSum(int[] numbers, int target) {
       int left = 0;
