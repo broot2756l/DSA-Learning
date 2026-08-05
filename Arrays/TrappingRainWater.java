@@ -37,9 +37,8 @@ public class TrappingRainWater {
     }
 
     public static void main(String[] args) {
-        int[] height1 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        int [] height2 = {4, 2, 0, 3, 2, 5};
-        int trappedWater = trap(height2);
+        int [] height = {4, 2, 0, 3, 2, 5};
+        int trappedWater = trap(height);
         System.out.println("Total trapped water: " + trappedWater);
     }
     
