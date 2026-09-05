@@ -1,14 +1,7 @@
-// a linked list node
-class Node {
-    int data;
-    Node next;
-
-    // constructor to initialize a new node with data
-    Node(int new_data) {
-        this.data = new_data;
-        this.next = null;
-    }
-}
+/* Complexity
+--> Time -> O(1)
+--> Space -> O(1)
+*/
 
 public class InsertAtHead {
 
