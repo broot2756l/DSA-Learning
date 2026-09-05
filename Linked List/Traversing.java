@@ -27,10 +27,10 @@ public class Traversing {
       
         // create a hard-coded linked list:
         // 10 -> 20 -> 30 -> 40
-        Node head = new Node(10);
-        head.next = new Node(20);
-        head.next.next = new Node(30);
-        head.next.next.next = new Node(40);
+        Node head = new Node(50);
+        head.next = new Node(30);
+        head.next.next = new Node(20);
+        head.next.next.next = new Node(0);
 
         traverseList(head);
     }
