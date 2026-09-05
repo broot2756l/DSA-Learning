@@ -1,8 +1,8 @@
 // Sliding window approach to find the maximum sum of a subarray
-/* This algorithm finds the maximum sum of a contiguous subarray in an array of integers. */
+// This algorithm finds the maximum sum of a contiguous subarray in an array of integers. //
 /* Complexity
-    Time Complexity: O(n)
-    Space Complexity: O(1)
+  Time Complexity: O(n)
+  Space Complexity: O(1)
  */
 public class MaxSumSubarray {
     public static int maxSubArray(int[] nums) {

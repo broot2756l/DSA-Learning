@@ -1,8 +1,8 @@
 // Kadanes Algorithm
-/* This algorithm finds the maximum sum of a contiguous subarray of size k in an array of integers. */
+// This algorithm finds the maximum sum of a contiguous subarray of size k in an array of integers. //
 /*Complexity
-    Time Complexity: O(n)
-    Space Complexity: O(1)
+  Time Complexity: O(n)
+  Space Complexity: O(1)
 */
 public class KadaneAlgo{
     public static int maxSubarray(int[] arr, int k) {

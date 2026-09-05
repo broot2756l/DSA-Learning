@@ -1,7 +1,7 @@
 // This algorithm merges overlapping intervals in a given array of intervals.
 /*Complexity
-Time complexity: O(n log n) due to sorting the intervals
-Space complexity: O(n) for storing the merged intervals
+ Time complexity: O(n log n) due to sorting the intervals
+ Space complexity: O(n) for storing the merged intervals
 */
 
 import java.util.*;
