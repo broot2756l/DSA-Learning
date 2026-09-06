@@ -3,7 +3,7 @@
 --> Space -> O(1)
 */
 
-public class DelteTail {
+public class DeleteTail {
     public static Node deleteTail(Node head) {
         if(head == null || head.next == null) return null;
         Node curr = head;
