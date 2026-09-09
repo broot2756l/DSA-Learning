@@ -1,3 +1,8 @@
+/*Complexity
+    Time: O(log N)
+    Space: O(1)
+*/
+
 public class SearchRotatedArray{
     public static int searchRotated(int[] arr, int target) {
       int low = 0, high = arr.length - 1;
